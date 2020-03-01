@@ -1,0 +1,51 @@
+body{
+    background-color: aquamarine;
+    font-size: 1.5rem;
+    /* text-align: center;
+    font-size: 1.5rem; */
+}
+button{
+    display: block;
+    margin: 20px auto;
+    background-color: crimson;
+    color: azure;
+    border: 0;
+    padding: 6px 10px;
+    font-size: 1.5rem;
+}
+.popup-wrapper{
+    background: rgba(0, 0, 0, 0.5);
+     position: fixed;/* So it's always on the screen */
+     top: 0;  
+     left: 0;
+     /* So this is where it starts in the top left of the screen. */
+     width: 100%;
+     /* it has a width of one hundred percent so it takes up the whole browser */
+     height: 100%;
+     /* now by default we don't want any of this pop up to show on the page.
+     we only want to show that when we click the button. */
+     display: none;
+}
+.popup{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: seashell;
+    position: relative;
+}
+.popup a{
+    background-color: crimson;
+    text-decoration: none;
+    color: floralwhite;
+    padding: 6px 10px;
+}
+.popup-close{
+    font-size: 2.1rem;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+}

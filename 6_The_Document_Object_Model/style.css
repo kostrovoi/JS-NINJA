@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+}
+div, h1, p, ul{
+    text-align: center;
+}
+p, div{
+    font-size: 1.3rem;
+}
+h1{
+    color: orange;
+}
+h2 + p{
+    color: blueviolet;
+}
+div > p{
+    color: green;
+}
+/* div > p ~ p{
+    color: beige;
+} */
+.challenge{
+    color: honeydew;
+}
+.error{
+    padding: 10px;
+    color: crimson;
+    border: 1px dotted crimson;
+  }
+  
+  .success{
+    padding: 10px;
+    color: limegreen;
+    border: 1px dotted limegreen;
+  }
+.test{
+    border: 3px solid hotpink;
+}

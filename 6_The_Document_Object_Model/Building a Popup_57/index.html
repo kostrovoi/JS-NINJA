@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- we're going to have a button and this is going to trigger the pop up. -->
+    <button>click me</button>
+    <!-- we need a div and this is going to be the pop up-wrapper. 
+    this  wrapper is going to act as kind of like a mask for the rest of the content.
+You know when a pop up appears on a web page and the rest of the background kind of fades out a bit.
+That's what this is gonna be used for ultimately.-->
+<div class="popup-wrapper">
+        <!-- Now inside that pop up wrapper we want the actual pop up. -->
+        <div class="popup">
+                <!-- we need one more thing inside the pop up and that is a close that the user can click.
+                    So when they click on that it's going to close the pop up. -->
+                <div class="popup-close">x</div>
+                <!-- and inside that we need to pop up content  -->
+                <div class="popup-content">
+                        <!-- So now we have a simple template for this pop up. -->
+                    <h2>NINJA SALE!</h2>
+                    <p>50% percent of all ninja clothing, don't miss out!</p>
+                    <a href="#">view clothing</a>
+                
+                </div>
+        </div>
+</div>
+<!-- without css it's going to look absolutely cruddy. -->
+    <script src="popup.js"></script>
+</body>
+</html>

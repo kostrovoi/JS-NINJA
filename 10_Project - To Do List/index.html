@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <script src="https://kit.fontawesome.com/dd1cf5ba37.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                           crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Todos</title>
+</head>
+<body>
+    <div class="container">
+<!-- Now remember this is a bootstrap class which keeps everything within a central column on the page. -->
+<!-- now  just copy little snippets from the repo and just paste these in. -->
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">Todo List</h1>
+            <form class="search">
+            <input class="form-control m-auto" type="text" name="search" placeholder="search todos" />
+            </form>
+        </header>
+
+        <ul class="todos list-group mx-auto text-light">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <span>play mariokart</span>
+                  <i class="far fa-trash-alt delete"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <span>defeat ganon in zelda</span>
+                  <i class="far fa-trash-alt delete"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <span>make a veggie pie</span>
+                  <i class="far fa-trash-alt delete"></i>
+                </li>
+        </ul>
+
+        <form class="add text-center my-4">
+                <label class="text-light">Add a new todo...</label>
+                <input class="form-control m-auto" type="text" name="add" />
+        </form>
+<!-- a form is to fill out and then pressing enter and that submits the form as well so that's how we're
+going to submit them. -->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 10px 0;
+    background: #eee;
+    text-align: center;
+    padding: 20px;
+  }
+  body{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 1.5rem;;
+}
